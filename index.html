@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaxwoR - Oficial</title>
+    <style>
+        /* Estilos en modo oscuro para que combine con la imagen dx.png */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #0b0f19; 
+            color: #e2e8f0; 
+        }
+        header { 
+            text-align: center; 
+            padding: 4rem 1rem 3rem; 
+            background: linear-gradient(to bottom, #05070a, #0b0f19); 
+            border-bottom: 1px solid #1e293b;
+        }
+        .hero-img { 
+            max-width: 100%; 
+            width: 300px; 
+            border-radius: 15px; 
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.8); 
+            border: 2px solid #1e293b;
+        }
+        h1 { 
+            margin: 1.5rem 0 0.5rem 0; 
+            font-size: 3rem; 
+            color: #ffffff; 
+            letter-spacing: 3px; 
+        }
+        .tagline { 
+            color: #94a3b8; 
+            font-style: italic; 
+            font-size: 1.1rem;
+        }
+        .container { 
+            max-width: 1000px; 
+            margin: 2rem auto; 
+            padding: 0 1rem; 
+        }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 2rem; 
+        }
+        .card { 
+            background: #151b2b; 
+            padding: 1.5rem; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4); 
+            border: 1px solid #2dd4bf; 
+        }
+        .card h3 { margin-top: 0; color: #2dd4bf; }
+        img.content-img, iframe { 
+            width: 100%; 
+            border-radius: 8px; 
+            border: none; 
+        }
+        .btn { 
+            display: block; 
+            text-align: center; 
+            padding: 0.8rem 1.5rem; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold; 
+            margin-top: 1rem; 
+            transition: 0.2s; 
+        }
+        .btn-ws { background: #25D366; color: #000; }
+        .btn-ws:hover { background: #1ebc53; color: white; }
+        .btn-free { background: #3b82f6; color: white; }
+        .btn-free:hover { background: #2563eb; }
+        .btn-social { background: #8b5cf6; color: white; }
+        .btn-social:hover { background: #7c3aed; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="dx.png" alt="DaxwoR" class="hero-img">
+        <h1>DaxwoR</h1>
+        <p class="tagline">"Un nuevo comienzo trae muchos errores"</p>
+    </header>
+
+    <div class="container">
+        <h2>Software y Aplicaciones</h2>
+        <div class="grid">
+            <!-- Sección de Programas Gratis -->
+            <div class="card">
+                <h3>Programas y Apps Gratis</h3>
+                <p>Descarga aplicaciones y programas totalmente gratuitos, listos para usar y seguros.</p>
+                <!-- Aquí puedes poner el link a tu Discord, MediaFire o Google Drive donde tengas los programas -->
+                <a href="#" class="btn btn-free" target="_blank">Ver Catálogo Gratuito</a>
+            </div>
+
+            <!-- Sección de Ventas sin Parches -->
+            <div class="card" style="border-color: #f59e0b;">
+                <h3 style="color: #f59e0b;">Programas Permanentes (Venta)</h3>
+                <p>Venta de software 100% permanente. <strong>Sin parches, sin caídas y sin errores.</strong> Garantía total de funcionamiento.</p>
+                <!-- Recuerda cambiar el número 51999999999 por tu WhatsApp -->
+                <a href="https://wa.me/51999999999?text=Hola,%20vengo%20de%20la%20página%20web.%20Me%20interesan%20los%20programas%20permanentes." class="btn btn-ws" target="_blank">Comprar por WhatsApp</a>
+            </div>
+        </div>
+        
+        <h2 style="margin-top: 3rem;">Multimedia y Pruebas</h2>
+        <div class="grid">
+            <div class="card">
+                <p><strong>Demostración de los programas:</strong></p>
+                <!-- Cambia tgbNymZ7vqY por el ID de tu video de YouTube -->
+                <iframe height="250" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <p><strong>Galería:</strong></p>
+                <img src="https://via.placeholder.com/400x250/0b0f19/2dd4bf?text=Sube+una+foto+aqui" class="content-img" alt="Foto">
+            </div>
+        </div>
+
+        <h2 style="margin-top: 3rem;">Contacto y Soporte</h2>
+        <div class="card" style="text-align: center; border-color: #8b5cf6;">
+            <p>Únete a la comunidad para soporte, reportes, actualizaciones o pedidos especiales.</p>
+            <!-- Cambia el # por tu link de Discord -->
+            <a href="#" class="btn btn-social" target="_blank">Únete al Discord</a>
+        </div>
+    </div>
+
+</body>
+</html>
