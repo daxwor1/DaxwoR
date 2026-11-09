@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Equipos y Servicios</title>
+    <style>
+        body { font-family: 'Segoe UI', system-ui, sans-serif; margin: 0; padding: 0; background: #f8fafc; color: #0f172a; }
+        header { background: #1e293b; color: #fff; padding: 3rem 1rem; text-align: center; }
+        .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        img, iframe { width: 100%; border-radius: 8px; border: none; }
+        .btn { display: block; text-align: center; color: #fff; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 1rem; }
+        .btn-ws { background: #25D366; }
+        .btn-ws:hover { background: #1ebc53; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Negocio / Portafolio</h1>
+        <p>Venta de equipos, servicios especializados y atención directa.</p>
+    </header>
+
+    <div class="container">
+        <h2>Productos y Ventas</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Equipo 1 / Servicio 1</h3>
+                <p>Descripción técnica de tu producto. Aceptamos pagos mediante transferencia o código QR.</p>
+                <!-- Cambia el 51999999999 por tu número con código de país -->
+                <a href="https://wa.me/51999999999?text=Hola, quiero más información sobre el Equipo 1" class="btn btn-ws" target="_blank">Consultar por WhatsApp</a>
+            </div>
+            <div class="card">
+                <h3>Equipo 2 / Servicio 2</h3>
+                <p>Descripción técnica de tu producto. Listo para entrega inmediata.</p>
+                <a href="https://wa.me/51999999999?text=Hola, me interesa el Equipo 2" class="btn btn-ws" target="_blank">Consultar por WhatsApp</a>
+            </div>
+        </div>
+        
+        <h2 style="margin-top: 3rem;">Multimedia (Videos y Fotos)</h2>
+        <div class="grid">
+            <div class="card">
+                <p><strong>Video de demostración:</strong></p>
+                <!-- Cambia el enlace "tgbNymZ7vqY" por el ID de tu video en YouTube -->
+                <iframe height="250" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <p><strong>Galería de trabajos/equipos:</strong></p>
+                <!-- Cambia el enlace de src por la ruta de tu foto -->
+                <img src="https://via.placeholder.com/400x250" alt="Foto de muestra">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
