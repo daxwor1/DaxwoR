@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DaxwoR - Oficial</title>
-    <meta name="description" content="DaxwoR Oficial - Venta de programas y software permanente, sin parches ni caídas. Descarga de aplicaciones gratuitas y optimización.">
-<meta name="keywords" content="DaxwoR, software, programas permanentes, aplicaciones gratis, optimización, daxwor.shop">
-<meta name="author" content="DaxwoR">
+    <meta name="description" content="DaxwoR Oficial - Venta de programas y software permanente, sin parches ni caídas. Descarga de aplicaciones gratuitas, tutoriales y optimización.">
+    <meta name="keywords" content="DaxwoR, software, programas permanentes, aplicaciones gratis, optimización, daxwor.shop">
+    <meta name="author" content="DaxwoR">
     <style>
         /* Estilos en modo oscuro para que combine con la imagen dx.png */
         body { 
@@ -47,7 +47,7 @@
         }
         .grid { 
             display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
             gap: 2rem; 
         }
         .card { 
@@ -56,6 +56,9 @@
             border-radius: 10px; 
             box-shadow: 0 4px 10px rgba(0,0,0,0.4); 
             border: 1px solid #2dd4bf; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         .card h3 { margin-top: 0; color: #2dd4bf; }
         img.content-img, iframe { 
@@ -81,6 +84,8 @@
         .btn-social:hover { background: #7c3aed; }
         .btn-yt { background: #ef4444; color: white; }
         .btn-yt:hover { background: #dc2626; }
+        .btn-folder { background: #0ea5e9; color: white; }
+        .btn-folder:hover { background: #0284c7; }
     </style>
 </head>
 <body>
@@ -92,34 +97,73 @@
     </header>
 
     <div class="container">
-        <h2>Software y Aplicaciones</h2>
+        <!-- Venta Destacada -->
+        <h2>Software Permanente</h2>
         <div class="grid">
-            <div class="card">
-                <h3>Programas y Apps Gratis</h3>
-                <p>Descarga aplicaciones y programas totalmente gratuitos, listos para usar y seguros.</p>
-                <a href="https://drive.google.com/drive/folders/1nL99IWuaBwT7jxdx1-OefZqaj5vSsP0T?usp=sharing" class="btn btn-free" target="_blank">Ver Catálogo Gratuito</a>
-            </div>
-
-            <div class="card" style="border-color: #f59e0b;">
-                <h3 style="color: #f59e0b;">Programas Permanentes (Venta)</h3>
-                <p>Venta de software 100% permanente. <strong>Sin parches, sin caídas y sin errores.</strong> Garantía total de funcionamiento.</p>
+            <div class="card" style="border-color: #f59e0b; grid-column: 1 / -1;">
+                <h3 style="color: #f59e0b;">Programas Permanentes (Venta Directa)</h3>
+                <p>Venta de software 100% permanente. <strong>Sin parches, sin caídas y sin errores.</strong> Garantía total de funcionamiento y atención personalizada.</p>
                 <a href="https://wa.me/51903540970?text=Hola,%20vengo%20de%20la%20página%20web.%20Me%20interesan%20los%20programas%20permanentes." class="btn btn-ws" target="_blank">Comprar por WhatsApp</a>
             </div>
+        </div>
+
+        <!-- Opción 1: Catálogo Visual de Descargas con Portadas y Subcarpetas -->
+        <h2 style="margin-top: 3rem;">Centro de Descargas y Recursos</h2>
+        <div class="grid">
+            
+            <!-- Tarjeta 1: 01 - Programas Gratis -->
+            <div class="card">
+                <div>
+                    <img src="xit.png" class="content-img" alt="Programas Gratis" style="height: 160px; object-fit: cover;">
+                    <h3 style="margin-top: 1rem;">01. Programas Gratis</h3>
+                    <p style="font-size: 0.95rem; color: #94a3b8;">Accede a todas las aplicaciones y programas gratuitos listos para descargar y usar de forma segura.</p>
+                </div>
+                <a href="https://drive.google.com/drive/folders/1XJjOgxRVd-ENfq3pjddkWW80suuMyMCv?usp=drive_link" class="btn btn-free" target="_blank">📁 Abrir Programas Gratis</a>
+            </div>
+
+            <!-- Tarjeta 2: 02 - Tutoriales y Guías -->
+            <div class="card" style="border-color: #3b82f6;">
+                <div>
+                    <img src="dx.png" class="content-img" alt="Tutoriales y Guías" style="height: 160px; object-fit: cover;">
+                    <h3 style="margin-top: 1rem; color: #3b82f6;">02. Tutoriales y Guías</h3>
+                    <p style="font-size: 0.95rem; color: #94a3b8;">Documentos, tutoriales paso a paso y guías de instalación para todos los paquetes del sistema.</p>
+                </div>
+                <a href="https://drive.google.com/drive/folders/1NjRoBQ3DA52TiFiE4EMndR22ThjbN8wR?usp=drive_link" class="btn btn-folder" target="_blank">📚 Ver Tutoriales y Guías</a>
+            </div>
+
+            <!-- Tarjeta 3: Muestras y Diseños -->
+            <div class="card" style="border-color: #8b5cf6;">
+                <div>
+                    <img src="xit.png" class="content-img" alt="Muestras y Diseños" style="height: 160px; object-fit: cover;">
+                    <h3 style="margin-top: 1rem; color: #8b5cf6;">03. Muestras y Diseños</h3>
+                    <p style="font-size: 0.95rem; color: #94a3b8;">Galería completa de imágenes, previas de trabajos, demostraciones visuales y diseños en alta calidad.</p>
+                </div>
+                <a href="https://drive.google.com/drive/folders/1CsZEF428vNu5Al3F9Po25_aseIMZp9TE?usp=drive_link" class="btn btn-social" target="_blank">🎨 Explorar Muestras y Diseños</a>
+            </div>
+
+        </div>
+
+        <!-- Botón a la carpeta principal -->
+        <div class="card" style="margin-top: 2rem; text-align: center; border-color: #0ea5e9;">
+            <h3>Carpeta Principal Completa (Google Drive)</h3>
+            <p>Accede directamente a la raíz de todos los archivos y carpetas compartidas en Drive.</p>
+            <a href="https://drive.google.com/drive/folders/1nL99IWuaBwT7jxdx1-OefZqaj5vSsP0T?usp=drive_link" class="btn btn-folder" target="_blank">📂 Acceder a la Carpeta Principal DaxwoR</a>
         </div>
         
         <h2 style="margin-top: 3rem;">Multimedia y Pruebas</h2>
         <div class="grid">
             <div class="card">
-                <p><strong>Demostración de los programas:</strong></p>
-                <!-- Video de YouTube actualizado -->
-                <iframe height="250" src="https://www.youtube.com/embed/iX-d4xFlYU0" allowfullscreen></iframe>
-                
+                <div>
+                    <p><strong>Demostración de los programas:</strong></p>
+                    <iframe height="250" src="https://www.youtube.com/embed/iX-d4xFlYU0" allowfullscreen></iframe>
+                </div>
                 <a href="https://www.youtube.com/@daxwor1" class="btn btn-yt" target="_blank">Visitar mi canal de YouTube</a>
             </div>
             <div class="card">
-                <p><strong>Galería:</strong></p>
-                <!-- Imagen xit.png vinculada aquí -->
-                <img src="xit.png" class="content-img" alt="DAXWOR - LA XIT TU MEJOR OPCION">
+                <div>
+                    <p><strong>Galería Oficial:</strong></p>
+                    <img src="xit.png" class="content-img" alt="DAXWOR - LA XIT TU MEJOR OPCION">
+                </div>
             </div>
         </div>
 
@@ -129,19 +173,20 @@
             <a href="https://discord.gg/ZGvxgc7YtU" class="btn btn-social" target="_blank">Únete al Discord</a>
         </div>
     </div>
-    <!-- Script para bloquear clic derecho y teclas de inspección -->
-<script>
-    // Bloquear clic derecho
-    document.addEventListener('contextmenu', event => event.preventDefault());
 
-    // Bloquear F12, Ctrl+U, Ctrl+Shift+I, etc.
-    document.onkeydown = function(e) {
-        if(e.keyCode == 123) { return false; } // F12
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; } 
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; } 
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; } 
-        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; } // Ver código fuente
-    }
-</script>
+    <!-- Script para bloquear clic derecho y teclas de inspección -->
+    <script>
+        // Bloquear clic derecho
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+        // Bloquear F12, Ctrl+U, Ctrl+Shift+I, etc.
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) { return false; } // F12
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; } 
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; } 
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; } 
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; } // Ver código fuente
+        }
+    </script>
 </body>
 </html>
